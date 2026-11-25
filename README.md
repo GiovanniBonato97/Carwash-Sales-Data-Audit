@@ -1,12 +1,16 @@
-Carwash-Sales-Data-Audit
-Excel data audit of a car wash business: cleaning customer and sales tables, reconciling $141.9K revenue, auditing discounts and benchmarking service times against standards.
-Sales Data Audit & Validation – Casey's Carwash
-Business problem
-A car wash business needed its customer and sales records validated before using them for reporting. The task: clean and standardise the data, check that revenue and pricing were accurate, and find operational issues.
-Data
+# Carwash-Sales-Data-Audit
 
-* Customer Master: 561 customers (ID, name, location, membership).
-* Raw Records: 1,181 sales transactions (date, service, car size, price, discount, service time, banking date).
+Excel data audit of a car wash business: cleaning customer and sales tables, removing duplicate records, reconciling $141.9K revenue, auditing discounts and benchmarking service times against standards.
+
+## Sales Data Audit & Validation – Casey's Carwash
+
+### Business problem
+A car wash business needed its customer and sales records validated before using them for reporting. The task: clean and standardise the data, check that revenue and pricing were accurate, and find operational issues.
+
+### Data
+- **Customer Master:** 564 customer records (ID, name, location, membership, car size). After cleaning: **561 unique customers**.
+- **Raw Records:** 1,184 sales transactions (date, service, car size, price, discount, service time, banking date). After cleaning: **1,181 transactions**.
+
 
 What I did
 
