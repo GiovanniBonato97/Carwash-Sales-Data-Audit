@@ -12,7 +12,7 @@ A car wash business needed its customer and sales records validated before using
 - **Raw Records:** 1,184 sales transactions (date, service, car size, price, discount, service time, banking date). After cleaning: **1,181 transactions**.
 
 
-What I did
+### What I did
 
 * Cleaned and standardised customer names, IDs and formats using text functions, lookups and IF logic.
 * Tested data integrity by building unique customer and transaction IDs and checking for duplicates (3 duplicate customers and 3 duplicate transactions found and removed).
@@ -21,7 +21,7 @@ What I did
 * Checked banking compliance against the first-working-day rule, allowing for public holidays.
 * Benchmarked service times by car size against operating standards (±7.5% tolerance).
 
-Key findings
+### Key findings
 
 * 146 pricing mismatches: 57 members did not receive their discount and 88 non-members wrongly received it.
 * 2 cash deposits were banked late without a public-holiday reason.
@@ -31,9 +31,10 @@ Key findings
 * Saturday had the highest sales volume (290 sales, $35.1K); Thursday had the highest average sale ($121.69).
 * Only Superior–Small services deviated from standard by more than 7.5% (averaging 9.17% over), suggesting that time standard needs reviewing.
 
-Tools
+### Tools
 Excel · pivot tables · XLOOKUP/VLOOKUP · IF logic · text functions · date/time functions
-Files
+
+### Files
 
 * `Carwash_sales_audit.xlsx` – cleaned data with all workings
-* `summary.pdf` – findings
+* `Carwash_summary.pdf` – findings
