@@ -38,3 +38,5 @@ Excel · pivot tables · XLOOKUP/VLOOKUP · IF logic · text functions · date/t
 
 * `Carwash_sales_audit.xlsx` – cleaned data with all workings
 * `Carwash_summary.pdf` – findings
+*  [Carwash_summary.pdf](Project_Report.pdf) 
+| [customer_data_clean.xlsx](customer_data_clean.xlsx) | Cleaned and aggregated datasets |
